@@ -15,8 +15,6 @@ showbreadcrumbs: true #顶部显示当前路径
 
 <div align='center'>
 
-# Stardew Valley Theme
-
 ![](stardew_valley_logo.png)
 </div>    
 

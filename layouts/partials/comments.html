@@ -1,0 +1,29 @@
+<script
+  id="utteranc"
+  src="https://utteranc.es/client.js"
+  repo="Chance-fyi/blog"
+  issue-term="pathname"
+  theme="github-light"
+  crossorigin="anonymous"
+  async
+></script>
+<script>
+    function updateTheme() {
+      const theme = document.body.classList.contains("dark")
+        ? "github-dark"
+        : "github-light";
+      const message = {
+        type: "set-theme",
+        theme: theme,
+      };
+      const utteranc = document.querySelector(".utterances-frame");
+      utteranc.contentWindow.postMessage(message, "https://utteranc.es");
+    }
+    
+    window.onload = function() {
+      updateTheme();
+      document.getElementById("theme-toggle").addEventListener("click", function() {
+        updateTheme();
+      });
+    };
+  </script>

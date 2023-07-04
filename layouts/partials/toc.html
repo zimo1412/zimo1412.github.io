@@ -120,7 +120,6 @@ $headers (sub (len $headers) 1)) 1) 0)) }}
 
     window.addEventListener('scroll', () => {
         // Check if there is an object in the top half of the screen or keep the last item 
-active
         activeElement = Array.from(elements).find((element) => {
             if ((getOffsetTop(element) - window.pageYOffset) > 0 && 
                 (getOffsetTop(element) - window.pageYOffset) < window.innerHeight/2) {
