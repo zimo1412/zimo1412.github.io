@@ -38,21 +38,25 @@ languages:
     menu:
       main:
         - identifier: "archive"
-          name: "Archive"
+          name: "📚 Archive"
           url: "/archive"
           weight: 1
         - identifier: "search"
-          name: "Search"
+          name: "🔍 Search"
           url: "/search"
           weight: 2
-        - identifier: "projects"
-          name: "Projects"
-          url: "/projects"
+        - identifier: "creative_hub"
+          name: "🚀 Creative Hub"
+          url: "/creative_hub"
           weight: 3
-        - identifier: "articles"
-          name: "Articles"
-          url: "/articles"
+        - identifier: "tech_musings"
+          name: "🔮 Tech Musings"
+          url: "/tech_musings"
           weight: 4
+        - identifier: "algorithm_arena"
+          name: "🏆 Algorithm Arena"
+          url: "/algorithm_arena"
+          weight: 5
 
 outputs:
   home:
@@ -99,19 +103,21 @@ params:
     imageWidth: 150
     imageHeight: 150
     buttons:
-      - name: "👨🏻‍💻 Projects"
-        url: "/projects"
-      - name: "📚 Articles"
-        url: "/articles"
+      - name: "🚀 Creative Hub"
+        url: "/creative_hub"
+      - name: "🔮 Tech Musings"
+        url: "/tech_musings"
+      - name: "🏆 Algorithm Arena"
+        url: "/algorithm_arena"
 
   homeInfoParams:
     Title: "Zimo Gao"
     Content: >
-      Welcome to my personal website (〃‘▽’〃)
-
-      - I'm a full-stack engineer sharing my development journey and insights here.
+      Hello, World! 🌍 Welcome to Zimo's Digital Odyssey. 
       
-      - Your feedback is warmly welcomed.
+      - I'm here, a full-stack engineer, exploring the tech universe and dropping a trail of insights along the way. 
+      
+      - Eager for your comments and thoughts. Let's navigate this thrilling landscape together! 🚢
 
   socialIcons:
     - name: github
