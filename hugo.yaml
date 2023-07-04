@@ -91,17 +91,20 @@ params:
 
   label: # 左上角图标
     text: "Zimo's Digital Odyssey"
-    icon: "img/baitang.jpg"
+    # icon: "img/cat-adventure.gif"
     iconHeight: 35
 
   profileMode:
-    enabled: false
+    enabled: true
     title: "Zimo Gao"
-    subtitle: "<br/>Welcome to my personal website (〃‘▽’〃)<br/>"
-    imageUrl: "img/baitang.jpg"
+    subtitle:
+      <br>Hello, World! 🌍 Welcome to Zimo's Digital Odyssey.
+      <br>I'm here, a full-stack engineer, exploring the tech universe and dropping a trail of insights along the way.
+      <br>Eager for your comments and thoughts. Let's navigate this thrilling landscape together! 🚢
+    imageUrl: "img/cat-adventure.gif"
     imageTitle:
-    imageWidth: 150
-    imageHeight: 150
+    imageWidth: 300
+    imageHeight: 300
     buttons:
       - name: "🚀 Creative Hub"
         url: "/creative_hub"
@@ -128,11 +131,11 @@ params:
       url: "mailto:zgaoai@gmail.com"
 
   assets:
-    favicon: "img/baitang.jpg"
-    favicon16x16: "img/baitang.jpg"
-    favicon32x32: "img/baitang.jpg"
-    apple_touch_icon: "img/baitang.jpg"
-    safari_pinned_tab: "img/baitang.jpg"
+    favicon: "img/cat-adventure.gif"
+    favicon16x16: "img/cat-adventure.gif"
+    favicon32x32: "img/cat-adventure.gif"
+    apple_touch_icon: "img/cat-adventure.gif"
+    safari_pinned_tab: "img/cat-adventure.gif"
 
   fuseOpts:
     isCaseSensitive: false
