@@ -1,6 +1,6 @@
 baseURL: https://zimo1412.github.io
 languageCode: en-us # zh-cn
-title: Zimo's Blog
+title: Zimo's Digital Odyssey
 theme: PaperMod
 publishdir: docs
 
@@ -86,14 +86,14 @@ params:
   comments: true
 
   label: # 左上角图标
-    text: "Zimo's Blog"
+    text: "Zimo's Digital Odyssey"
     icon: "img/baitang.jpg"
     iconHeight: 35
 
   profileMode:
     enabled: false
     title: "Zimo Gao"
-    subtitle: "<br/>Welcome to Zimo's blog (〃‘▽’〃)<br/>"
+    subtitle: "<br/>Welcome to my personal website (〃‘▽’〃)<br/>"
     imageUrl: "img/baitang.jpg"
     imageTitle:
     imageWidth: 150
