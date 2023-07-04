@@ -10,7 +10,7 @@
 <meta name="description" content="Below are some of my side projects. Feel free to explore and provide feedback.">
 <meta name="author" content="Zimo">
 <link rel="canonical" href="https://zimo1412.github.io/projects/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.7c793b6e1b99f645003a2106f1a767b81a1b72a4455e03d96030a6782b9ed128.css" integrity="sha256-fHk7bhuZ9kUAOiEG8adnuBobcqRFXgPZYDCmeCue0Sg=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.c5064bfc96052212539a56b1fde0787fa921b386cd37c3cf5eedc88bb69eb660.css" integrity="sha256-xQZL/JYFIhJTmlax/eB4f6khs4bNN8PPXu3Ii7aetmA=" rel="preload stylesheet" as="style">
 <link rel="icon" href="https://zimo1412.github.io/img/baitang.jpg">
 <link rel="icon" type="image/png" sizes="16x16" href="https://zimo1412.github.io/img/baitang.jpg">
 <link rel="icon" type="image/png" sizes="32x32" href="https://zimo1412.github.io/img/baitang.jpg">
@@ -182,7 +182,20 @@
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
         <path d="M12 6H0l6-6z" />
     </svg>
-</a>
+</a><script src="https://cdn.jsdelivr.net/npm/medium-zoom@1.0.8/dist/medium-zoom.min.js"></script>
+<script>
+  const images = Array.from(document.querySelectorAll(".post-content img"));
+  images.forEach((img) => {
+    mediumZoom(img, {
+      margin: 0  ,
+      scrollOffset: 10  ,
+      container: null  ,
+      template: null  ,
+      background: "rgba(0, 0, 0, 0.8)",
+    });
+  });
+</script>
+
 
 <script>
     let menu = document.getElementById('menu')

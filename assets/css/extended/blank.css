@@ -75,6 +75,10 @@
     color: var(--secondary);
 }
 
+.utterances {
+    max-width: 100%;
+}
+
 img:active {
     transform: scale(1.35,1.35)
 }
