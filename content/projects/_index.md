@@ -2,4 +2,4 @@
 title: "Projects"
 ---
 
-Below are some projects I completed in my spare time. Feel free to explore and provide feedback.
+Below are some of my side projects. Feel free to explore and provide feedback.

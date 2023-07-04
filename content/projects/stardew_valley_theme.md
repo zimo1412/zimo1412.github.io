@@ -2,6 +2,9 @@
 title: "Stardew Valley Theme"
 date: 2023-07-02T05:31:16-07:00
 draft: false
+tags: ["VSCode theme"]
+series: ["VScode extensions"]
+categories: ["Frontend"]
 comments: true #是否展示评论
 showToc: true # 显示目录
 TocOpen: true # 自动展开目录

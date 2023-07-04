@@ -1,0 +1,8 @@
+/* 文章页面底部的面包屑居右 */
+.post-footer > .breadcrumbs {
+    justify-content: flex-end;
+  }
+
+  .x-post-series {
+    padding: 16px 0;
+  }
